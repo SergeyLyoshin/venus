@@ -32,7 +32,7 @@ p {
 .intro {
   background-color: rgba(0, 0, 0, 0);
   background-image: linear-gradient(rgba(138, 186, 86, 0), rgba(138, 186, 86, 0.3) 95%),
-                    url("4.jpg");
+                    
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: scroll, fixed;
@@ -43,11 +43,7 @@ p {
   margin-top: 35px;
 }
 
-.intro-logo {
-  width: 300px;
-  height: auto;
-  margin-bottom: 40px;
-}
+
 
 .intro .text-lead {
   color: #22577E;
