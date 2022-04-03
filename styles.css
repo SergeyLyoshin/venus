@@ -11,7 +11,7 @@ h2 {
 }
 
 p {
-  color: #1A132F;
+  color: #fff;
 }
 
 .column-1-4 {
@@ -30,22 +30,36 @@ p {
 }
 
 .intro {
-  text-align: center;
-  background: #C69B7B;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: linear-gradient(rgba(138, 186, 86, 0), rgba(138, 186, 86, 0.3) 95%),
+                    url("4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll, fixed;
+  background-position: 0 0%, center top;
+
+  color: #fff;
+  padding: 40px;
+  margin-top: 35px;
 }
 
 .intro-logo {
   width: 300px;
   height: auto;
   margin-bottom: 40px;
-  margin-left: 40px;
-  float: left;
+}
+
+.intro .text-lead {
+  color: #22577E;
+  max-width: 70%;
+  margin: 0 15%;
 }
 
 .title-large {
   font-size: 48px;
   margin-bottom: 36px;
   color: #22577E;
+  text-align: center;
 }
 
 .text-lead {
@@ -53,6 +67,7 @@ p {
   font-weight: normal;
   line-height: 30px;
   color: #712B75;
+  text-align: right;
 }
 
 .buffer-top {
